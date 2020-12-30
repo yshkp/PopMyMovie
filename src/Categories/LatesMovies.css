@@ -1,0 +1,15 @@
+.container {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.container img {
+  margin-right: 10px;
+}
+
+.item:hover {
+  transform: scale(1.2);
+}
+
+::-webkit-scrollbar {
+  overflow-x: hidden;
+}
